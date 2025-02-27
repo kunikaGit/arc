@@ -5,12 +5,12 @@
 // import { ScrollTrigger } from "gsap-trial/dist/ScrollTrigger";
 // import { ScrollSmoother } from "gsap-trial/dist/ScrollSmoother";
 import Hero from "@/components/homes/arc-home/Hero";
-import WhyChoose from "../homes/arc-home/whychoose";
 import Testimonials from "../homes/arc-home/testimonial";
 import Calltoaction from "../homes/arc-home/Calltoaction";
 import Header3 from "../headers/Arc-header";
 import Footer1 from "../footer/Footer1";
 import CoverFlowSlider from "../homes/arc-home/CoverFlowSlider";
+import PricingTable from "../homes/arc-home/pricingTable";
 
 export default function ArcContent() {
     // const mainRef = useRef(null);
@@ -51,7 +51,7 @@ export default function ArcContent() {
 
                         </div>
                         <div className="hotbids-section" data-speed="1.5">
-                            <WhyChoose />
+                            <PricingTable />
                         </div>
                         <div className="collections-section" data-speed="2">
                             <Testimonials />

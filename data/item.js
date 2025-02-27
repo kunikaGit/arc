@@ -789,7 +789,7 @@ export const collections4 = [
   },
   {
     id: 61,
-    imageSrc: "/img/nft1.png",
+    imageSrc: "/img/nft1.jpg",
     avatarSrc: "/img/avatars/avatar_17_rounded.jpg",
     title: "Light Bars",
     subTitle: "Wow Frens",
@@ -813,7 +813,7 @@ export const collections4 = [
   },
   {
     id: 64,
-    imageSrc: "/img/nft2.png",
+    imageSrc: "/img/nft2.jpg",
     avatarSrc: "/img/avatars/avatar_19_rounded.jpg",
     title: "Amazing NFT art",
     subTitle: "Lila Spacex",

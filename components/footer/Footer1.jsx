@@ -28,8 +28,7 @@ export default function Footer1() {
               />
             </Link>
             <p className="mb-12 dark:text-jacarta-300">
-              Create, sell and collect truly rare digital artworks. Powered by
-              blockchain technology.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, ipsum.
             </p>
 
             <div className="flex space-x-5">
@@ -65,16 +64,7 @@ export default function Footer1() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
-          <span className="text-sm dark:text-jacarta-400">
-            &copy; {new Date().getFullYear()} Xhibiter — Made by{" "}
-            <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
-              className="hover:text-accent"
-            >
-              ib-themes
-            </a>
-          </span>
-          <ul className="flex flex-wrap space-x-4 text-sm dark:text-jacarta-400">
+          <ul className="flex flex-wrap space-x-4 text-sm dark:text-jacarta-400 justify-center items-center">
             <li>
               <a href="#" className="hover:text-accent">
                 Terms and conditions

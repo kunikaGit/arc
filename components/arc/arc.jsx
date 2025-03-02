@@ -11,6 +11,7 @@ import Header3 from "../headers/Arc-header";
 import Footer1 from "../footer/Footer1";
 import CoverFlowSlider from "../homes/arc-home/CoverFlowSlider";
 import PricingTable from "../homes/arc-home/pricingTable";
+import WhyChoose from "../homes/arc-home/whychoose";
 
 export default function ArcContent() {
     // const mainRef = useRef(null);
@@ -57,6 +58,9 @@ export default function ArcContent() {
                             <Testimonials />
                         </div>
                         <div className="categories-section" data-speed="2.5">
+                            <WhyChoose />
+                        </div>
+                        <div className="categories-section" data-speed="3">
                             <Calltoaction />
                         </div>
                     </main>

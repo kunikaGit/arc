@@ -1,48 +1,71 @@
 "use client";
-import { testimonialsData } from "@/data/testimonials";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 
+export const testimonialsData = [
+  {
+    id: 1,
+    imageSrc: "/img/man1.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Katie Smith",
+    role: "General Partner at Entrepreneur",
+  },
+  {
+    id: 2,
+    imageSrc: "/img/man2.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Alex Fox",
+    role: "Entrepreneur / Manager",
+  },
+  {
+    id: 3,
+    imageSrc: "/img/women1.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Marshal Ericson",
+    role: "NFT Entrepreneur",
+  },
+  {
+    id: 1,
+    imageSrc: "/img/man1.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Katie Smith",
+    role: "General Partner at Entrepreneur",
+  },
+  {
+    id: 2,
+    imageSrc: "/img/man2.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Alex Fox",
+    role: "Entrepreneur / Manager",
+  },
+  {
+    id: 3,
+    imageSrc: "/img/women1.jpg",
+    text: "Xhibiter is one of the most exciting, if you're interested in shaping a new business model for creators, this is the team to join.",
+    name: "Marshal Ericson",
+    role: "NFT Entrepreneur",
+  },
+];
 export default function Testimonials() {
   return (
     <section className="bg-light-base py-24 dark:bg-jacarta-900">
       <div className="container relative overflow-hidden xl:left-[calc((100vw-1202px)/4)] xl:max-w-[calc(1202px+((100vw-1202px)/2))] xl:pr-[calc((100vw-1176px)/2)]">
         <div className="mx-auto mb-12 max-w-sm text-center">
           <h2 className="mb-6 text-center font-display text-3xl font-medium text-jacarta-700 dark:text-white">
-          Testimonials & Reviews
+          TRUST PILOT REVIEW
           </h2>
           <p className="text-lg dark:text-jacarta-300">
-            10,000k+ Customers those who already tried our services.
+            <span className="animate-gradient text-lg font-bold">10000+  </span> Customers those who already tried our services.
           </p>
         </div>
-        <Swiper
-          modules={[Pagination, Autoplay]}
-          spaceBetween={30}
-          autoplay={true}
-          slidesPerGroupAuto
-          slidesPerView={"auto"}
-          rewind
-          breakpoints={{
-            240: {
-              slidesPerView: 1,
-            },
-            565: {
-              slidesPerView: 2,
-            },
-          }}
-          pagination={{
-            el: ".spb1",
-            clickable: true,
-          }}
-          className="swiper card-slider-2-columns xl:!overflow-visible"
-        >
+        <div className="flex animate-marquee space-x-8">
           {testimonialsData.map((elm, i) => (
-            <SwiperSlide key={i}>
-              <div className="flex flex-wrap gap-5 rounded-2.5xl bg-white p-12 dark:bg-jacarta-700 lg:flex-nowrap">
+           <div
+           key={i}
+           className="flex flex-shrink-0 items-center justify-center rounded-2.5xl border border-jacarta-100 bg-white p-6 w-1/2 gap-6">
                 <Image
-                  width={168}
-                  height={168}
+                width={50} height={50}
                   src={elm.imageSrc}
                   alt="image"
                   className="w-28 self-start rounded-2.5xl lg:w-auto"
@@ -123,10 +146,8 @@ export default function Testimonials() {
                   </span>
                 </div>
               </div>
-            </SwiperSlide>
           ))}
-        </Swiper>
-
+        </div>
         <div className="spb1 swiper-pagination mt-10 text-center"></div>
       </div>
     </section>

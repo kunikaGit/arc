@@ -1,6 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
+import { Navigation,EffectCoverflow } from "swiper/modules";
 import { collections4 } from "@/data/item";
 import Link from "next/link";
 import Image from "next/image";

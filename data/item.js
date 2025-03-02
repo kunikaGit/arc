@@ -741,7 +741,7 @@ export const collections4 = [
   },
   {
     id: 65,
-    imageSrc: "/img/nft4.jpg",
+    imageSrc: "/img/nft10.jpg",
     avatarSrc: "/img/avatars/avatar_20_rounded.jpg",
     title: "SwagFox#133",
     subTitle: "Bored Bunny",
@@ -813,7 +813,7 @@ export const collections4 = [
   },
   {
     id: 64,
-    imageSrc: "/img/nft2.jpg",
+    imageSrc: "/img/nft11.jpg",
     avatarSrc: "/img/avatars/avatar_19_rounded.jpg",
     title: "Amazing NFT art",
     subTitle: "Lila Spacex",
@@ -821,7 +821,7 @@ export const collections4 = [
   },
   {
     id: 65,
-    imageSrc: "/img/nft4.png",
+    imageSrc: "/img/nft10.jpg",
     avatarSrc: "/img/avatars/avatar_20_rounded.jpg",
     title: "SwagFox#133",
     subTitle: "Bored Bunny",

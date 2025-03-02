@@ -49,7 +49,7 @@ const tableData = [
     values: ["5 Days"],
   },
   {
-    heading: "News Trading",
+    heading: "News Trading",//his
     values: [<Right />],
   },
 ];

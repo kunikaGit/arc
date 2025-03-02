@@ -20,39 +20,7 @@ const Right = () => {
   );
 };
 
-const tableData = [
-  {
-    heading: "Account Size",
-    values: [
-      { size: "5,000", price: " $149" },
-    ],
-    showButton: true,
-  },
-  {
-    heading: "15% Profit Share From Challenge Phase",
-    values: ["$117"],
-  },
-  {
-    heading: "Profit Target",
-    values: ["P1: 8%, P2: 5%", ],
-  },
-  {
-    heading: "Maximum Daily Loss",
-    values: ["5% ($300)"],
-  },
-  {
-    heading: "Maximum Overall Loss",
-    values: ["5% ($300)"],
-  },
-  {
-    heading: "Minimum Trading Days",
-    values: ["5 Days"],
-  },
-  {
-    heading: "News Trading",//his
-    values: <Right />
-  },
-];
+
 
 export default function InstantFunding() {
   return (
@@ -61,54 +29,86 @@ export default function InstantFunding() {
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 border-jacarta-100 border-t">
             <tbody>
-                <tr
-                  className="border-t border-jacarta-100 py-2 px-4 transition-shadow hover:shadow-lg dark:border-jacarta-600 dark:bg-jacarta-900"
-                >
-                  {/* Table Heading */}
-                  <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Account Size
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    15% Profit Share From Challenge Phase
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Profit Target
-                  </th> <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Maximum Daily Loss
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Minimum Trading Days
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   News Trading
-                  </th>
-
-                  {/* Table Values */}
-
-                    <td  className="px-6 py-4 text-center text-base">
-                      <div className="flex flex-col items-center">
-                            <span>5,000</span>
-                            <button className="mt-2 text-sm rounded-lg bg-accent p-2 px-3 text-white shadow-accent-volume transition-all hover:bg-accent-dark">
-                              <span className="font-semibold text-md">Get Plan</span>
-                              <br />
-                              8000
-                            </button>
-
-                      </div>
-                    </td>
+              <tr
+                className="border-t border-jacarta-100 py-2 px-4 transition-shadow hover:shadow-lg dark:border-jacarta-600 dark:bg-jacarta-900"
+              >
+                {/* Table Heading */}
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  Account Size
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <span>5,000</span>
+                    <button className="mt-2 text-sm rounded-lg bg-accent p-2 px-3 text-white shadow-accent-volume transition-all hover:bg-accent-dark">
+                      <span className="font-semibold text-md">Get Plan</span>
+                      <br />
+                      $149
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  15% Profit Share From Challenge Phase
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <span>$117</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  Profit Target
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <span>$117</span>
+                  </div>
+                </td>
                 </tr>
+                <tr>
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  Maximum Daily Loss
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <Right/>
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  Minimum Trading Days
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <span>$117</span>
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                <th
+                  scope="row"
+                  className="px-6 py-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  News Trading
+                </th>
+                <td className="px-6 py-4 text-center text-base">
+                  <div className="flex flex-col items-center">
+                    <span>$117</span>
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

@@ -25,8 +25,7 @@ export default function AcrNav() {
                         } hover:text-accent focus:text-accent  dark:hover:text-accent dark:focus:text-accent lg:px-5`}
                     id="navDropdown-1"
                     aria-expanded="false"
-                    role="button"
-                    data-bs-toggle="dropdown">
+                    role="button">
                     Home
 
                 </Link>

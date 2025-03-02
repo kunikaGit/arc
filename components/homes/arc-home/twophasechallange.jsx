@@ -54,7 +54,7 @@ const tableData = [
   },
   {
     heading: "News Trading",
-    values: [<Right />, <Right />, <Right />, <Right />, <Right />],
+    values: Array(5).fill(null).map((_, index) => <Right key={index} />),
   },
 ];
 

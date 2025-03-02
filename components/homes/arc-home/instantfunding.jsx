@@ -76,7 +76,7 @@ export default function InstantFunding() {
 
                   {/* Table Values */}
                   {row.values.map((value, colIndex) => (
-                    <td key={colIndex} className="px-6 py-4 text-center text-base">
+                    <td  key={`${rowIndex}-${colIndex}`}  className="px-6 py-4 text-center text-base">
                       <div className="flex flex-col items-center">
                         {/* If it's the "Account Size" row, show size and price together */}
                         {row.showButton ? (

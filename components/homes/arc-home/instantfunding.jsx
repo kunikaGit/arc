@@ -50,7 +50,7 @@ const tableData = [
   },
   {
     heading: "News Trading",//his
-    values: [<Right />],
+    values: <Right />
   },
 ];
 

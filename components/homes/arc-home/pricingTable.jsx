@@ -21,7 +21,7 @@ export default function PricingTable() {
             <div className="container">
                 <div className="mx-auto mb-14 max-w-xl text-center">
                     <h2 className="mb-0 text-center font-display text-4xl font-medium text-jacarta-700 dark:text-white">
-                        Choose the Best Plan</h2>
+                    One Step towards Financial Freedom</h2>
                 </div>
                 <div className="scrollbar-custom overflow-x-auto">
                     <ul

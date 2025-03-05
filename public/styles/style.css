@@ -490,3 +490,21 @@ html[dir="rtl"] .hover\:translate-x-1:hover {
 .home-cards{
   box-shadow: 4px 4px 10px 0px #73717157;
 }
+.hover-text-white{
+  transition: .3s;
+}
+.hover-text-white:hover h3{
+color: #fff;
+}
+.hero .four-cards .pink:hover svg {
+  fill: #ff59e2;
+}
+.hero .four-cards .blue:hover svg {
+  fill: #52ddf6;
+}
+.hero .four-cards .orange:hover svg {
+  fill: #ff7356;
+}
+.hero .four-cards .accent:hover svg {
+  fill: #8358FF;
+}
